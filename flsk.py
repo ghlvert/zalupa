@@ -7,6 +7,10 @@ app = Flask(__name__)
 def index():
     return '<h1>ZALUPA</h1>'
 
+@app.route('faq')
+def info():
+    return '<h1>faq</h1>'
+
 @app.route('info')
 def info():
     return '<h1>info</h1>'
